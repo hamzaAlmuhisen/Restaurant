@@ -1,0 +1,155 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eeeeee;
+}
+
+header {
+  background-color: #363333;
+  height: 100px;
+}
+
+header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+  padding: 32px 115px;
+}
+
+header nav ul {
+  display: flex;
+  gap: 40px;
+  list-style-type: none;
+}
+
+header nav ul a {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  /* identical to box height */
+
+  text-decoration-line: none;
+
+  color: #f9f7f7;
+}
+
+
+main{
+  margin: 40px;
+}
+
+
+p {
+  font-size: large;
+}
+
+form{
+  margin:20px 0px;
+}
+footer {
+  min-height: 100px;
+
+  text-align: start;
+  width: 100%;
+  font-size: 24px;
+  font-weight: 500;
+  background-color: #272121;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 872px;
+}
+footer p {
+  color: #dbe2ef;
+  font-weight: 300;
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 20px;
+}
+button {
+  background: #f9f7f7;
+  border: 1px solid #dbe2ef;
+  border-radius: 8px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  color: #112d4e;
+  padding: 4px 8px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: "Inter";
+  margin-bottom: 30px;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+input {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 200px;
+}
+
+select {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 200px;
+}
+
+select {
+  width: 215px; /* Adjust width to accommodate dropdown arrow */
+}
+
+ input[type=submit] {
+  background-color:#E16428 ;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-size: 20px;
+  color: #272121;
+}
+
+ input:hover[type=submit] {
+  background-color: #ce5b2698;
+  color: #000000;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+/* <-----------------------class class class class class class class----------------------->  */
+
+/* <-----------------------Opacity Opacity Opacity Opacity Opacity Opacity ----------------------->  */
+
+/* <-----------------------Spacing Spacing Spacing Spacing Spacing Spacing----------------------->  */

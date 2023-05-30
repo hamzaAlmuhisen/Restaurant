@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="H2Food" content="food">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <!-- Fonts -->
+
+    <link rel="stylesheet" href="./style/index.css">
+    <title>H2Food</title>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <img class="logo" src="assets/logo.png" alt="Logo" />
+            <ul>
+                <li>
+                    <a href="">Home</a>
+                </li>
+                <li>
+                    <a href="./about.html">About</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form id="foodForm">
+            <label for="foodName">Food Name:</label>
+            <input type="text" id="foodName" name="foodName" ><br><br>
+          
+            <label for="foodType">Types of Food:</label>
+            <select id="foodType" name="foodType" >
+              <option value="Fruit and Vegetables">Fruit and Vegetables</option>
+              <option value="Starchy Food">Starchy Food</option>
+              <option value="Dairy">Dairy</option>
+              <option value="Protein">Protein</option>
+              <option value="Fat">Fat</option>
+            </select><br><br>
+          
+            <label for="price">Price:</label>
+            <input type="number" id="price" name="price" step="any" required><br><br>
+
+            <input type="submit" value="Submit">
+          </form>
+            <table id="foodTable">
+                <thead>
+                    <tr>
+                        <th>Food ID</th>
+                        <th>Food Name</th>
+                        <th>Type</th>
+                        <th>Price</th>
+                      </tr>
+                </thead>
+             
+            <tbody id="data">
+            
+            </tbody>
+              </table>
+
+    </main>
+
+    <footer>
+        <p>Copyright ©H2Food 2023</p>
+        <div>
+            <a href="https://www.facebook.com/"> <img src="./assets/facebook.png" /></a>
+            <a href="https://www.twitter.com/"> <img src="./assets/twitter.png" /></a>
+            <a href="https://www.linkedin.com/"> <img src="./assets/linkin.png" /></a>
+        </div>
+    </footer>
+    <script src="./app.js"></script>
+</body>
+
+</html>
